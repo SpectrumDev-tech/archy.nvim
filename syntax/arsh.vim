@@ -3,7 +3,7 @@ if exists("b:current_syntax")
 endif
 
 " Keywords
-syntax keyword arshKeyword let print info success warn error if elif else true false
+syntax keyword arshKeyword let print info success warn error if elif else true false while break continue OS
 highlight default link arshKeyword Keyword
 
 " Comments
