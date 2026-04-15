@@ -1,18 +1,30 @@
 [
  "let"
  "print"
+ ] @keyword
+
+[
+ "if"
+ "elif"
+ "else"
+ ] @keyword.conditional
+
+[
+ "while"
+ "break"
+ "continue"
+ ] @keyword.repeat
+
+[
  "info"
  "success"
  "warn"
  "error"
- "if"
- "elif"
- "else"
- "while"
- "break"
- "continue"
+ ] @function
+
+[
  "OS"
- ] @keyword
+ ] @keyword.directive
 
 [
  "true"
@@ -46,3 +58,12 @@
  "||"
  "!"
  ] @keyword.operator
+
+[
+ "{"
+ "}"
+ ] @punctuation.bracket
+[
+ "("
+ ")"
+ ] @punctuation.bracket
